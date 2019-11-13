@@ -5,12 +5,13 @@
 @viewport {width: device-width; scale: 1;}
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  -webkit-viewport-size-adjust: 100%;
+  @viewport-text-size-adjust: 100%;
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%
-  -ms-text-size-adjust: 100%
-  -o-text-size-adjust: 100%
-  -webkit-viewport-size-adjust: 100%
-  @viewport-text-size-adjust: 100%
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
